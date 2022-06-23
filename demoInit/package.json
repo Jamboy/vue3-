@@ -1,0 +1,21 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "npm init study",
+  "main": "index.js",
+  "scripts": {
+    "dev:cjs": "node src/cjs/index.cjs",
+    "dev:mjs": "node src/esm/index.mjs",
+    "dev:ts": "ts-node src/ts/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
