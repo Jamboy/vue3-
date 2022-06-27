@@ -7,7 +7,7 @@
     "dev:cjs": "node src/cjs/index.cjs",
     "dev:mjs": "node src/esm/index.mjs",
     "dev:ts": "ts-node src/ts/index.ts",
-    "build": "tsc src/ts/index.ts --outDir dist",
+    "build": "tsc src/ts/index.ts --outDir dist --target es6",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
